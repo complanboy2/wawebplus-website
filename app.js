@@ -1,7 +1,7 @@
 const WA_PLUS_SITE = {
-  installUrl: "https://chromewebstore.google.com/",
+  installUrl: "https://chrome.google.com/webstore/detail/wa-bulk-message-sender/oajgkebdeioegjkaohcipgblnkjibple",
   loginUrl: "https://extensionpay.com",
-  supportEmail: "support@wa-plus.app"
+  supportEmail: "support@wawebplus.com"
 };
 
 document.querySelectorAll("[data-install-link]").forEach((link) => {
