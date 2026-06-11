@@ -374,6 +374,58 @@ img {
   margin-bottom: 34px;
 }
 
+.pricing-market-switch {
+  display: grid;
+  gap: 12px;
+  margin-top: 22px;
+  padding: 18px 20px;
+  border: 1px solid rgba(0, 168, 132, 0.14);
+  border-radius: 22px;
+  background: rgba(255, 255, 255, 0.76);
+}
+
+.pricing-market-label {
+  color: var(--accent-dark);
+  font-size: 12px;
+  font-weight: 800;
+  letter-spacing: .08em;
+  text-transform: uppercase;
+}
+
+.pricing-market-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.pricing-market-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 42px;
+  padding: 0 16px;
+  border: 1px solid rgba(17, 27, 33, 0.1);
+  border-radius: 999px;
+  background: #fff;
+  color: var(--text);
+  font-size: 14px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.pricing-market-button.active {
+  border-color: rgba(0, 168, 132, 0.38);
+  background: #effcf6;
+  color: var(--accent-dark);
+}
+
+.pricing-market-note {
+  margin: 0;
+  color: var(--text-muted);
+  font-size: 14px;
+  line-height: 1.6;
+}
+
 .use-case-grid,
 .pricing-grid,
 .testimonial-grid,

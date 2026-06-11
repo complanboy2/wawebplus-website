@@ -24,10 +24,12 @@ After pushing to GitHub:
 3. Point DNS for `www.wawebplus.com` to GitHub Pages.
 4. Optionally redirect `wawebplus.com` to `www.wawebplus.com`.
 
-## Important values to update before public launch
+## Current site values
 
-Edit `app.js` and replace:
+The site currently uses:
 
-- Chrome Web Store install URL
-- login/account URL if different
-- support email
+- Chrome Web Store install URL in `app.js`
+- ExtensionPay login URL in `app.js`
+- Support email in `app.js`
+
+Update those values only if the live install target, login flow, or support address changes.
