@@ -1,12 +1,13 @@
 const WA_PLUS_SITE = {
   installUrl: "https://chromewebstore.google.com/detail/wa-utils/oajgkebdeioegjkaohcipgblnkjibple",
   loginUrl: "https://extensionpay.com",
+  trialUrl: "https://chromewebstore.google.com/detail/wa-utils/oajgkebdeioegjkaohcipgblnkjibple",
   supportEmail: "support@wa-plus.app"
 };
 
 const PRICING_MARKETS = [
-  { id: "USD", label: "International", currencyCode: "USD" },
-  { id: "IN", label: "India", currencyCode: "INR" }
+  { id: "USD", label: "\ud83c\udf10 USD", currencyCode: "USD" },
+  { id: "IN", label: "\ud83c\uddee\ud83c\uddf3 INR", currencyCode: "INR" }
 ];
 
 const PRICING_CATALOGS = {
@@ -45,13 +46,16 @@ document.querySelectorAll("[data-login-link]").forEach((link) => {
   link.href = WA_PLUS_SITE.loginUrl;
 });
 
+document.querySelectorAll("[data-trial-link]").forEach((link) => {
+  link.href = WA_PLUS_SITE.trialUrl;
+});
+
 document.querySelectorAll("[data-support-email]").forEach((link) => {
   link.href = `mailto:${WA_PLUS_SITE.supportEmail}`;
   link.textContent = WA_PLUS_SITE.supportEmail;
 });
 
 const marketButtonsRoot = document.querySelector("[data-pricing-market-buttons]");
-const marketNote = document.querySelector("[data-pricing-market-note]");
 const planCards = Array.from(document.querySelectorAll("[data-plan-card]"));
 let selectedMarket = normalizeMarket(detectMarket());
 
@@ -83,20 +87,15 @@ function renderPricing() {
     });
   }
 
-  if (marketNote) {
-    marketNote.textContent = selectedMarket === "IN"
-      ? "Showing INR plans for India. You can switch to international pricing if needed."
-      : "Showing international USD pricing. Switch to India if you want INR plans.";
-  }
 }
 
 if (marketButtonsRoot) {
   PRICING_MARKETS.forEach((market) => {
     const button = document.createElement("button");
     button.type = "button";
-    button.className = "pricing-market-button";
+    button.className = "pricing-toggle-btn";
     button.setAttribute("data-market", market.id);
-    button.textContent = `${market.label} · ${market.currencyCode}`;
+    button.textContent = market.label;
     button.addEventListener("click", () => {
       selectedMarket = normalizeMarket(market.id);
       renderPricing();
