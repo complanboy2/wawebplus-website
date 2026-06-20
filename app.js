@@ -40,14 +40,20 @@ function detectMarket() {
 
 document.querySelectorAll("[data-install-link]").forEach((link) => {
   link.href = WA_PLUS_SITE.installUrl;
+  link.target = "_blank";
+  link.rel = "noopener";
 });
 
 document.querySelectorAll("[data-login-link]").forEach((link) => {
   link.href = WA_PLUS_SITE.loginUrl;
+  link.target = "_blank";
+  link.rel = "noopener";
 });
 
 document.querySelectorAll("[data-trial-link]").forEach((link) => {
   link.href = WA_PLUS_SITE.trialUrl;
+  link.target = "_blank";
+  link.rel = "noopener";
 });
 
 document.querySelectorAll("[data-support-email]").forEach((link) => {
