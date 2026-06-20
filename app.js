@@ -1,7 +1,7 @@
 const WA_PLUS_SITE = {
-  installUrl: "https://chromewebstore.google.com/detail/wa-utils/oajgkebdeioegjkaohcipgblnkjibple",
+  installUrl: "https://chromewebstore.google.com/detail/oajgkebdeioegjkaohcipgblnkjibple",
   loginUrl: "https://extensionpay.com",
-  trialUrl: "https://chromewebstore.google.com/detail/wa-utils/oajgkebdeioegjkaohcipgblnkjibple",
+  trialUrl: "https://chromewebstore.google.com/detail/oajgkebdeioegjkaohcipgblnkjibple",
   supportEmail: "support@wa-plus.app"
 };
 
