@@ -1,9 +1,11 @@
 const WA_PLUS_SITE = {
-  installUrl: "https://chromewebstore.google.com/detail/oajgkebdeioegjkaohcipgblnkjibple",
+  extensionId: "oajgkebdeioegjkaohcipgblnkjibple",
   loginUrl: "https://extensionpay.com",
-  trialUrl: "https://chromewebstore.google.com/detail/oajgkebdeioegjkaohcipgblnkjibple",
   supportEmail: "support@wa-plus.app"
 };
+
+WA_PLUS_SITE.installUrl = `https://chromewebstore.google.com/detail/${WA_PLUS_SITE.extensionId}`;
+WA_PLUS_SITE.trialUrl = WA_PLUS_SITE.installUrl;
 
 const PRICING_MARKETS = [
   { id: "USD", label: "\ud83c\udf10 USD", currencyCode: "USD" },
