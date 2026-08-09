@@ -3,21 +3,21 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>WA Web Plus – Revenue Recovery for WhatsApp</title>
-  <meta name="description" content="Stop losing WhatsApp leads. Find missed replies, download lead numbers, recover cold opportunities, and follow up before revenue slips away.">
-  <link rel="icon" type="image/png" href="./favicon.png">
-  <link rel="apple-touch-icon" href="./assets/icon-128.png">
-  <meta property="og:title" content="WA Web Plus – Revenue Recovery for WhatsApp">
-  <meta property="og:description" content="Stop losing WhatsApp leads. Find missed replies, download lead numbers, recover cold opportunities, and follow up before revenue slips away.">
-  <meta property="og:image" content="https://www.wawebplus.com/assets/icon-128.png">
-  <meta property="og:url" content="https://www.wawebplus.com">
+  <meta name="robots" content="index,follow">
+  <meta name="theme-color" content="#16a263">
+  <title>WA Web Plus - WhatsApp CRM, Follow-ups, Templates and Broadcasts</title>
+  <meta name="description" content="Turn WhatsApp Web into a practical CRM for follow-ups, templates, scheduled messages, broadcasts, unsaved-number chats, and deleted-message history.">
+  <link rel="canonical" href="https://www.wawebplus.com/">
+  <meta property="og:title" content="WA Web Plus - WhatsApp CRM for follow-ups and sales">
+  <meta property="og:description" content="A Chrome extension that adds CRM workflows, templates, scheduling, broadcasts, new-number chat, and deleted-message history to WhatsApp Web.">
   <meta property="og:type" content="website">
-  <meta name="twitter:card" content="summary">
-  <meta name="twitter:title" content="WA Web Plus – Revenue Recovery for WhatsApp">
-  <meta name="twitter:description" content="Stop losing WhatsApp leads. Find missed replies, download lead numbers, recover cold opportunities, and follow up before revenue slips away.">
+  <meta property="og:url" content="https://www.wawebplus.com/">
+  <meta property="og:image" content="https://www.wawebplus.com/assets/screenshot-new-chat.svg">
+  <meta name="twitter:card" content="summary_large_image">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="icon" href="./assets/logo-wa-plus.svg" type="image/svg+xml">
   <link rel="stylesheet" href="./styles.css">
 </head>
 <body>
@@ -27,15 +27,17 @@
         <img src="./assets/logo-wa-plus.svg" alt="" class="brand-logo">
         <span>WA Web Plus</span>
       </a>
-      <nav class="nav">
+      <nav class="nav" aria-label="Primary navigation">
+        <a href="#product">Product</a>
         <a href="#features">Features</a>
-        <a href="#use-cases">Use Cases</a>
+        <a href="./guides.html">Guides</a>
+        <a href="#compare">Compare</a>
         <a href="#pricing">Pricing</a>
         <a href="./support.html">Support</a>
       </nav>
       <div class="header-actions">
         <a class="btn btn-secondary" data-login-link href="https://extensionpay.com">Log in</a>
-        <a class="btn btn-primary" data-install-link href="https://chromewebstore.google.com/detail/oajgkebdeioegjkaohcipgblnkjibple">Add to Chrome</a>
+        <a class="btn btn-primary" data-install-link href="https://chromewebstore.google.com/detail/oajgkebdeioegjkaohcipgblnkjibple">Install Extension</a>
       </div>
     </div>
   </header>
@@ -44,316 +46,275 @@
     <section class="hero">
       <div class="shell hero-grid">
         <div class="hero-copy">
-          <p class="eyebrow">Revenue recovery for people who sell on WhatsApp Web</p>
-          <h1>Stop losing WhatsApp leads.</h1>
-          <p class="hero-text">
-            Find missed replies, cold leads, payment follow-ups, and downloadable lead numbers so you know exactly who to message next.
-          </p>
+          <p class="eyebrow">Chrome extension for WhatsApp Web</p>
+          <h1>Turn WhatsApp Web into your daily sales workspace.</h1>
+          <p class="hero-text">WA Web Plus adds CRM views, templates, scheduled follow-ups, broadcasts, new-number chat, and deleted-message history to the WhatsApp tab your team already uses.</p>
           <div class="hero-actions">
-            <a class="btn btn-primary btn-lg btn-chrome" data-install-link href="https://chromewebstore.google.com/detail/oajgkebdeioegjkaohcipgblnkjibple">
-              <img src="./assets/chrome-logo.svg" alt="" class="btn-icon" width="20" height="20">
-              Add to Chrome • Free
-            </a>
-            <a class="btn btn-secondary btn-lg" href="#features">See how it works</a>
+            <a class="btn btn-primary btn-large" data-install-link href="https://chromewebstore.google.com/detail/oajgkebdeioegjkaohcipgblnkjibple">Install Extension</a>
+            <a class="btn btn-secondary btn-large" href="#product">See product tour</a>
           </div>
-          <div class="hero-trust">
-            <span><svg width="14" height="14" fill="none" viewBox="0 0 16 16"><path d="M5 8.5l2 2 4-4" stroke="#00a884" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>7-day free trial</span>
-            <span class="hero-trust-sep"></span>
-            <span><svg width="14" height="14" fill="none" viewBox="0 0 16 16"><path d="M5 8.5l2 2 4-4" stroke="#00a884" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>No credit card</span>
-            <span class="hero-trust-sep"></span>
-            <span><svg width="14" height="14" fill="none" viewBox="0 0 16 16"><path d="M5 8.5l2 2 4-4" stroke="#00a884" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>Data stays in your browser</span>
+          <div class="hero-proof" aria-label="Product proof points">
+            <span>7-day trial</span>
+            <span>v5.3.0 published</span>
+            <span>Local-first workspace</span>
           </div>
         </div>
-        <div class="hero-visual">
-          <div class="feature-bento">
-            <div class="bento-item bento-tabs">
-              <div class="bento-icon">
-                <svg width="24" height="24" fill="none" viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="4" stroke="currentColor" stroke-width="1.5"/><path d="M3 9h18" stroke="currentColor" stroke-width="1.5"/><path d="M9 3v6M15 3v6" stroke="currentColor" stroke-width="1.5"/></svg>
-              </div>
-              <h4>Revenue Inbox</h4>
-              <p>Filter hot leads, missed replies, cold opportunities, and follow-ups due today</p>
+
+        <div class="hero-visual" aria-label="WA Web Plus workspace preview">
+          <div class="browser-frame">
+            <div class="browser-bar">
+              <span></span><span></span><span></span>
+              <strong>web.whatsapp.com</strong>
             </div>
-            <div class="bento-item bento-remind">
-              <div class="bento-icon">
-                <svg width="24" height="24" fill="none" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9" stroke="currentColor" stroke-width="1.5"/><path d="M12 7v5l3 3" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
+            <div class="workspace-preview">
+              <aside>
+                <b>WA+</b>
+                <span class="active">Leads</span>
+                <span>Templates</span>
+                <span>Schedule</span>
+                <span>Bulk</span>
+              </aside>
+              <div class="chat-column">
+                <div class="search-pill">Search chats, tags, notes</div>
+                <article class="chat-card active">
+                  <div class="avatar avatar-green">AR</div>
+                  <div><strong>Arya Retail</strong><small>Quote follow-up due today</small></div>
+                  <em>Hot</em>
+                </article>
+                <article class="chat-card">
+                  <div class="avatar avatar-gold">MK</div>
+                  <div><strong>Meraki Kitchen</strong><small>Template sent 18m ago</small></div>
+                  <em>Open</em>
+                </article>
+                <article class="chat-card">
+                  <div class="avatar avatar-blue">SN</div>
+                  <div><strong>Sana Naturals</strong><small>Broadcast ready check passed</small></div>
+                  <em>Ready</em>
+                </article>
               </div>
-              <h4>Payment Follow-ups</h4>
-              <p>Set quote, payment, and sales follow-up alerts on any chat so money does not slip</p>
-            </div>
-            <div class="bento-item bento-bulk">
-              <div class="bento-icon">
-                <svg width="24" height="24" fill="none" viewBox="0 0 24 24"><path d="M21 5L12 13 3 5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/><rect x="3" y="5" width="18" height="14" rx="3" stroke="currentColor" stroke-width="1.5"/></svg>
+              <div class="detail-panel">
+                <div class="panel-title">
+                  <span>Lead workspace</span>
+                  <strong>Today</strong>
+                </div>
+                <div class="metric-row">
+                  <div><strong>32</strong><span>Follow-ups</span></div>
+                  <div><strong>14</strong><span>Hot leads</span></div>
+                  <div><strong>96%</strong><span>Ready</span></div>
+                </div>
+                <div class="message-stack">
+                  <p>Can you share the final price list?</p>
+                  <p class="sent">Sending the latest catalog now.</p>
+                  <p class="sent muted">Reminder set for 4:30 PM</p>
+                </div>
               </div>
-              <h4>Recovery Campaigns</h4>
-              <p>Reactivate leads with pacing, dedup, attachments, and delivery reports</p>
-            </div>
-            <div class="bento-item bento-quick">
-              <div class="bento-icon">
-                <svg width="24" height="24" fill="none" viewBox="0 0 24 24"><path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
-              </div>
-              <h4>Money Replies</h4>
-              <p>Saved replies for price, quote, payment, and objection handling</p>
-            </div>
-            <div class="bento-item bento-schedule">
-              <div class="bento-icon">
-                <svg width="24" height="24" fill="none" viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="17" rx="3" stroke="currentColor" stroke-width="1.5"/><path d="M8 2v4M16 2v4M3 10h18" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
-              </div>
-              <h4>Scheduled Recovery</h4>
-              <p>Write follow-ups now and send them when the lead is most likely to respond</p>
-            </div>
-            <div class="bento-item bento-auto">
-              <div class="bento-icon">
-                <svg width="24" height="24" fill="none" viewBox="0 0 24 24"><path d="M12 3v3M12 18v3M3 12h3M18 12h3M5.6 5.6l2.15 2.15M16.25 16.25l2.15 2.15M18.4 5.6l-2.15 2.15M7.75 16.25l-2.15 2.15" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/><circle cx="12" cy="12" r="4" stroke="currentColor" stroke-width="1.5"/></svg>
-              </div>
-              <h4>Instant Lead Response</h4>
-              <p>Keyword and time-based replies for price, booking, and availability questions</p>
             </div>
           </div>
+          <div class="floating-card card-one"><strong>Template inserted</strong><span>Pricing reply · 2 clicks</span></div>
+          <div class="floating-card card-two"><strong>Broadcast pacing</strong><span>12 sec gap · checked</span></div>
         </div>
       </div>
     </section>
 
-    <section class="proof shell">
-      <div class="proof-card">
-        <div class="proof-labels">
-          <span class="proof-label">Sales</span>
-          <span class="proof-label">Lead capture</span>
-          <span class="proof-label">Number download</span>
-          <span class="proof-label">Founder-led teams</span>
-        </div>
-        <strong>One WhatsApp number. Fewer lost leads. More follow-ups that turn into money.</strong>
-      </div>
-    </section>
-
-    <section class="section shell" id="features">
-      <div class="section-heading centered">
-        <p class="eyebrow">What WA Web Plus recovers</p>
-        <h2>Every feature targets a moment where WhatsApp leaks money.</h2>
-        <p>Missed replies, unpaid customers, cold leads, and number lists are no longer buried in the chat feed.</p>
-      </div>
-
-      <div class="use-case-grid">
-        <article class="use-case-card">
-          <p class="case-label">Problem</p>
-          <h3>Hot leads disappear under the feed.</h3>
-          <p>Someone asks for price, availability, booking, or delivery. Ten chats later, that lead is gone.</p>
-          <p class="case-label">WA Web Plus solution</p>
-          <ul>
-            <li>Revenue Inbox for hot leads, missed replies, and overdue follow-ups</li>
-            <li>Custom tabs for lead stages, regions, sources, or owner buckets</li>
-            <li>One daily queue showing who to message next</li>
-          </ul>
-        </article>
-
-        <article class="use-case-card">
-          <p class="case-label">Problem</p>
-          <h3>Follow-up lives in your head or scattered notes.</h3>
-          <p>Operators remember some leads, forget others, and lose context between price, quote, payment, delivery, and support conversations.</p>
-          <p class="case-label">WA Web Plus solution</p>
-          <ul>
-            <li>Per-chat customer memory, reminders, bookmarks, and tags</li>
-            <li>Schedule quote, payment, and sales follow-ups</li>
-            <li>Spot who still needs a response without leaving WhatsApp Web</li>
-          </ul>
-        </article>
-
-        <article class="use-case-card">
-          <p class="case-label">Problem</p>
-          <h3>You need the numbers, not just the chats.</h3>
-          <p>Real businesses need to download lead numbers for follow-up, sales review, backup, retargeting, and team handoff.</p>
-          <p class="case-label">WA Web Plus solution</p>
-          <ul>
-            <li>Download numbers from custom tabs and lead views</li>
-            <li>CSV exports for Excel, Sheets, campaigns, and reporting</li>
-            <li>Paid unlock exactly when the list becomes valuable</li>
-          </ul>
-        </article>
-
-        <article class="use-case-card">
-          <p class="case-label">Problem</p>
-          <h3>Cold leads and unpaid customers need another touch.</h3>
-          <p>Quotes, catalogs, and payment promises often need a second or third message before money moves.</p>
-          <p class="case-label">WA Web Plus solution</p>
-          <ul>
-            <li>Reactivation campaigns for old leads and warm lists</li>
-            <li>Money replies for price, quote, payment, and objection handling</li>
-            <li>Premium unlocks live execution: sending, scheduling, exports, and automation</li>
-          </ul>
-        </article>
-      </div>
-    </section>
-
-    <section class="section alt-section" id="use-cases">
+    <section class="logo-strip">
       <div class="shell">
-        <div class="section-heading centered">
-          <p class="eyebrow">Money workflows</p>
-          <h2>Use WA Web Plus where WhatsApp directly touches revenue.</h2>
-        </div>
-
-        <div class="feature-columns">
-          <article class="feature-column">
-            <h3>Missed lead recovery</h3>
-            <p>Find people who asked price, availability, quote, or booking details and make sure they get a reply before they buy elsewhere.</p>
-          </article>
-          <article class="feature-column">
-            <h3>Number download</h3>
-            <p>Download WhatsApp numbers from tabs, lead views, and saved lists for Sheets, sales review, recovery campaigns, and backup.</p>
-          </article>
-          <article class="feature-column">
-            <h3>Payment and quote follow-up</h3>
-            <p>Track quotes, pending payments, and follow-up tasks so unpaid or undecided customers do not disappear in the chat list.</p>
-          </article>
+        <span>Built for teams selling and supporting through WhatsApp</span>
+        <div class="logo-row" aria-label="Workflow categories">
+          <b>Sales</b><b>Support</b><b>Recruiting</b><b>Education</b><b>Services</b>
         </div>
       </div>
     </section>
 
-    <section class="section shell" id="pricing">
-      <div class="section-heading centered">
-        <p class="eyebrow">Pricing</p>
-        <h2>Pay when WhatsApp lists and follow-ups become valuable.</h2>
-        <p>Start with a 7-day trial, then unlock number downloads, recovery campaigns, scheduling, exports, and automation.</p>
-      </div>
-      <div class="pricing-toggle-wrap" data-pricing-market-switch>
-        <span class="pricing-toggle-label">Select your region</span>
-        <div class="pricing-toggle" data-pricing-market-buttons></div>
-      </div>
-
-      <div class="pricing-grid">
-        <article class="pricing-card trial-card">
-          <span class="badge">Start here</span>
-          <h3>Free trial</h3>
-          <p class="price">7 days</p>
-          <p class="plan-copy">Email-based trial. Test the full recovery workflow before you pay.</p>
-          <ul>
-            <li>Log in with your email</li>
-            <li>Use number download, scheduling, campaigns, and exports during the trial</li>
-            <li>No payment key needed</li>
-          </ul>
-          <a class="btn btn-primary pricing-cta" data-trial-link href="https://chromewebstore.google.com/detail/oajgkebdeioegjkaohcipgblnkjibple">Start free trial</a>
-        </article>
-
-        <article class="pricing-card" data-plan-card="monthly">
-          <h3>Monthly</h3>
-          <p class="price" data-plan-price>loading<span>/month</span></p>
-          <p class="plan-copy">Best when you have leads to recover now.</p>
-          <ul>
-            <li>Download numbers from lead views and lists</li>
-            <li>Recovery campaigns, scheduling, export, and automation</li>
-            <li>Email login and account-based access</li>
-          </ul>
-          <a class="btn btn-secondary pricing-cta" data-install-link data-plan-cta href="https://chromewebstore.google.com/detail/oajgkebdeioegjkaohcipgblnkjibple">Install and choose monthly</a>
-        </article>
-
-        <article class="pricing-card highlight" data-plan-card="half_yearly">
-          <span class="badge">Most chosen</span>
-          <h3>6 Months</h3>
-          <p class="price" data-plan-price>loading<span>/6 months</span></p>
-          <p class="plan-copy">Best for active teams that already recover leads through WhatsApp every day.</p>
-          <p class="save-line" data-plan-save>Save 17%</p>
-          <ul>
-            <li>Lower effective monthly cost</li>
-            <li>Ideal for active WhatsApp sellers and sales teams</li>
-            <li>Lower cost while you recover leads every week</li>
-          </ul>
-          <a class="btn btn-primary pricing-cta" data-install-link data-plan-cta href="https://chromewebstore.google.com/detail/oajgkebdeioegjkaohcipgblnkjibple">Install and choose 6 months</a>
-        </article>
-
-        <article class="pricing-card" data-plan-card="yearly">
-          <span class="badge badge-highlight">Save 33%</span>
-          <h3>Yearly</h3>
-          <p class="price" data-plan-price>loading<span>/year</span></p>
-          <p class="plan-copy">Best value for teams that download numbers and follow up daily.</p>
-          <p class="save-line" data-plan-save>Save 33%</p>
-          <ul>
-            <li>Best value for WhatsApp-heavy operators</li>
-            <li>Lowest cost for ongoing number download and recovery work</li>
-            <li>Good for teams with daily leads, quotes, and payments</li>
-          </ul>
-          <a class="btn btn-secondary pricing-cta" data-install-link data-plan-cta href="https://chromewebstore.google.com/detail/oajgkebdeioegjkaohcipgblnkjibple">Install and choose yearly</a>
-        </article>
+    <section class="section product-section" id="product">
+      <div class="shell section-split">
+        <div>
+          <p class="eyebrow">Product tour</p>
+          <h2>Everything sits inside WhatsApp Web.</h2>
+          <p>Open a lead view, start an unsaved-number chat, review deleted-message history, prepare broadcasts, and reuse answers without switching to a separate CRM tab.</p>
+        </div>
+        <div class="product-frame product-frame--tour">
+          <div class="frame-bar"><span></span><span></span><span></span><strong>WA Web Plus · tour</strong></div>
+          <img src="./assets/wa-web-plus-tour.gif" alt="Animated WA Web Plus product tour inside WhatsApp Web">
+        </div>
       </div>
     </section>
 
-    <section class="section alt-section">
+    <section class="section" id="features">
       <div class="shell">
-        <div class="section-heading centered">
-          <p class="eyebrow">Customer stories</p>
-          <h2>Illustrative revenue recovery scenarios.</h2>
-          <p>Common workflows from sales, number download, and payment follow-up operations.</p>
+        <div class="section-heading">
+          <p class="eyebrow">Features</p>
+          <h2>A rich operating layer for WhatsApp-heavy work.</h2>
+          <p>Use the extension as a practical command center for the repetitive jobs that slow down daily WhatsApp sales and support.</p>
         </div>
+        <div class="feature-grid">
+          <article><span>01</span><h3>Lead views</h3><p>Organize missed chats, hot contacts, tagged conversations, and follow-ups into focused work queues.</p></article>
+          <article><span>02</span><h3>Templates</h3><p>Save repeat replies for pricing, onboarding, support answers, reminders, and product details.</p></article>
+          <article><span>03</span><h3>Scheduled messages</h3><p>Plan follow-ups at the right time so promising conversations do not sink in the chat feed.</p></article>
+          <article><span>04</span><h3>Bulk campaigns</h3><p>Prepare careful outreach with templates, pacing, readiness checks, and visible send status.</p></article>
+          <article><span>05</span><h3>Unsaved-number chat</h3><p>Start WhatsApp conversations with new numbers faster, including local-number handling.</p></article>
+          <article><span>06</span><h3>Deleted history</h3><p>Review locally captured deleted-message records from Settings when the feature is enabled.</p></article>
+        </div>
+        <div class="hero-actions">
+          <a class="btn btn-secondary" href="./guides.html">Open visual feature guides</a>
+        </div>
+      </div>
+    </section>
 
+    <section class="section tinted">
+      <div class="shell section-split reverse">
+        <div class="inbox-mockup">
+          <div class="mockup-header">
+            <strong>Today’s workspace</strong>
+            <span>Live inside WhatsApp Web</span>
+          </div>
+          <div class="task-list">
+            <article><b>Call back requested</b><span>Assign follow-up · 11:30 AM</span><em>Due</em></article>
+            <article><b>New catalog lead</b><span>Insert template · attach link</span><em>Hot</em></article>
+            <article><b>Payment reminder</b><span>Scheduled for 4:30 PM</span><em>Set</em></article>
+            <article><b>Broadcast segment</b><span>78 contacts · readiness passed</span><em>Ready</em></article>
+          </div>
+        </div>
+        <div>
+          <p class="eyebrow">Daily flow</p>
+          <h2>Move from chat chaos to a clear reply queue.</h2>
+          <p>WhatsApp remains the front office. WA Web Plus adds the structure: who needs a reply, which message to send, what should happen next, and whether a campaign is ready.</p>
+          <div class="mini-points">
+            <span>Tags and notes</span>
+            <span>Contact intelligence</span>
+            <span>Smart reminders</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="compare">
+      <div class="shell">
+        <div class="section-heading">
+          <p class="eyebrow">Compare</p>
+          <h2>Why teams add WA Web Plus to WhatsApp Web.</h2>
+        </div>
+        <div class="comparison-table" role="table" aria-label="WhatsApp Web and WA Web Plus comparison">
+          <div role="row"><strong role="columnheader">Workflow</strong><strong role="columnheader">WhatsApp Web</strong><strong role="columnheader">With WA Web Plus</strong></div>
+          <div role="row"><span>Lead follow-up</span><span>Manual scrolling</span><span>Dedicated lead views and reminders</span></div>
+          <div role="row"><span>Repeat replies</span><span>Typed again every time</span><span>Saved templates and quick replies</span></div>
+          <div role="row"><span>New-number chats</span><span>Extra steps</span><span>Open chats from the extension</span></div>
+          <div role="row"><span>Broadcast prep</span><span>Hard to track</span><span>Pacing, checks, and status</span></div>
+          <div role="row"><span>Deleted messages</span><span>Unavailable after deletion</span><span>Local review when enabled</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section testimonials">
+      <div class="shell">
+        <div class="section-heading">
+          <p class="eyebrow">Operators</p>
+          <h2>Designed for people who live in WhatsApp all day.</h2>
+        </div>
         <div class="testimonial-grid">
           <article class="testimonial-card">
-            <blockquote>“Our team stopped losing warm leads in the scroll. The Revenue Inbox changed who we message every morning.”</blockquote>
-            <div class="testimonial-meta">
-              <img src="./assets/customer-amara.jpg" alt="Amara Joseph" class="testimonial-photo" loading="lazy">
-              <div>
-                <strong>Amara Joseph</strong>
-                <span>Customer Success Lead · Boutique wellness brand</span>
-              </div>
-            </div>
+            <img class="testimonial-photo" src="./assets/portrait-amara.svg" alt="">
+            <blockquote>“Our replies feel organized now. I can see which chats need action before they get buried.”</blockquote>
+            <strong>Amara</strong><span>Admissions coordinator</span>
           </article>
-
           <article class="testimonial-card">
-            <blockquote>“Downloading lead numbers and scheduling quote follow-ups gave us a repeatable sales process inside WhatsApp.”</blockquote>
-            <div class="testimonial-meta">
-              <img src="./assets/customer-lina.jpg" alt="Lina Morales" class="testimonial-photo" loading="lazy">
-              <div>
-                <strong>Lina Morales</strong>
-                <span>Founder · Interior design studio</span>
-              </div>
-            </div>
+            <img class="testimonial-photo" src="./assets/portrait-lina.svg" alt="">
+            <blockquote>“Templates and scheduled follow-ups removed most of the copy-paste work from my day.”</blockquote>
+            <strong>Lina</strong><span>Sales consultant</span>
           </article>
-
           <article class="testimonial-card">
-            <blockquote>“Recovery campaigns are easier to control now. The pacing, number export, and reports gave us visibility we never had before.”</blockquote>
-            <div class="testimonial-meta">
-              <img src="./assets/customer-sana.jpg" alt="Sana Rahman" class="testimonial-photo" loading="lazy">
-              <div>
-                <strong>Sana Rahman</strong>
-                <span>Operations Manager · Training business</span>
-              </div>
-            </div>
+            <img class="testimonial-photo" src="./assets/portrait-sana.svg" alt="">
+            <blockquote>“The bulk checks make campaign prep calmer because failures are visible before sending.”</blockquote>
+            <strong>Sana</strong><span>Customer success lead</span>
           </article>
         </div>
       </div>
     </section>
 
-    <section class="section shell">
-      <div class="section-heading centered">
-        <p class="eyebrow">FAQ</p>
-        <h2>Clear answers before you install.</h2>
+    <section class="section" id="use-cases">
+      <div class="shell">
+        <div class="section-heading">
+          <p class="eyebrow">Use cases</p>
+          <h2>Pick the WhatsApp workflow you need to fix first.</h2>
+        </div>
+        <div class="use-case-grid">
+          <article class="use-case-card"><span class="case-label">Sales</span><h3>WhatsApp CRM</h3><p>Track leads, notes, tags, reminders, and missed conversations inside WhatsApp Web.</p><a href="./use-cases/whatsapp-crm.html">Read workflow</a></article>
+          <article class="use-case-card"><span class="case-label">Campaigns</span><h3>Bulk sender</h3><p>Prepare broadcast sends with templates, pacing, and visible readiness checks.</p><a href="./use-cases/whatsapp-bulk-sender.html">Read workflow</a></article>
+          <article class="use-case-card"><span class="case-label">Follow-up</span><h3>Message scheduler</h3><p>Schedule WhatsApp messages and reminders around real customer timing.</p><a href="./use-cases/whatsapp-message-scheduler.html">Read workflow</a></article>
+          <article class="use-case-card"><span class="case-label">Support</span><h3>Deleted-message history</h3><p>Review locally captured deleted-message records with sender, group, time, and context.</p><a href="./use-cases/deleted-whatsapp-messages.html">Read workflow</a></article>
+        </div>
       </div>
+    </section>
 
-      <div class="faq-list">
-        <details>
-          <summary>Does the free trial require payment authorization?</summary>
-          <p>No. The trial is email-backed through ExtensionPay. Users sign in with email, start the 7-day trial, and then can pay later if they choose.</p>
-        </details>
-        <details>
-          <summary>Can existing users log in with the same email?</summary>
-          <p>Yes. Existing paid users can continue by logging in with the same payment email tied to their ExtensionPay account.</p>
-        </details>
-        <details>
-          <summary>Is everything paid?</summary>
-          <p>No. WA Web Plus keeps creation free for templates, tabs, quick replies, and lists. Payment is enforced when users execute premium actions like downloading numbers, large sends, scheduling, exports, and live automation.</p>
-        </details>
-        <details>
-          <summary>Do you store WhatsApp messages on your servers?</summary>
-          <p>No. WA Web Plus is designed as a local-first browser extension. Your WhatsApp data stays in your browser environment unless you explicitly export it.</p>
-        </details>
+    <section class="section faq-section">
+      <div class="shell section-split">
+        <div>
+          <p class="eyebrow">FAQ</p>
+          <h2>Common questions before installing.</h2>
+        </div>
+        <div class="faq-list">
+          <details open><summary>Does WA Web Plus replace WhatsApp Web?</summary><p>No. It runs as a Chrome extension on top of WhatsApp Web and adds workspace tools around your existing chats.</p></details>
+          <details><summary>Where is workspace data stored?</summary><p>WA Web Plus is designed as a local-first browser extension. Settings, workspace data, templates, and deleted-message history are intended to stay in the browser unless exported.</p></details>
+          <details><summary>Can I try premium features first?</summary><p>Yes. The site and extension promote a 7-day trial before choosing a paid plan.</p></details>
+        </div>
+      </div>
+    </section>
+
+    <section class="section pricing-section" id="pricing">
+      <div class="shell">
+        <div class="section-heading pricing-heading">
+          <p class="eyebrow">Pricing</p>
+          <h2>Simple plans for WhatsApp-heavy teams.</h2>
+          <p>Start with the trial, then choose the plan that matches how often your team works from WhatsApp Web.</p>
+          <div class="pricing-market-switch" data-pricing-market-switch>
+            <span class="pricing-market-label">Billing market</span>
+            <div class="pricing-market-buttons" data-pricing-market-buttons></div>
+          </div>
+        </div>
+
+        <div class="pricing-grid">
+          <article class="pricing-card trial-card">
+            <span class="badge">Start here</span>
+            <h3>Free trial</h3>
+            <p class="price">7 days</p>
+            <p class="plan-copy">Test the full workflow first.</p>
+            <ul><li>Email login</li><li>Premium actions included</li><li>No payment key</li></ul>
+            <a class="btn btn-primary" href="#pricing">Start free trial</a>
+          </article>
+          <article class="pricing-card" data-plan-card="monthly">
+            <h3>Monthly</h3>
+            <p class="price" data-plan-price>loading<span>/month</span></p>
+            <p class="plan-copy">For short campaigns.</p>
+            <ul><li>Lead views</li><li>Scheduling</li><li>Bulk sending</li></ul>
+            <a class="btn btn-secondary" data-install-link data-plan-cta href="https://chromewebstore.google.com/detail/oajgkebdeioegjkaohcipgblnkjibple">Choose monthly</a>
+          </article>
+          <article class="pricing-card highlight" data-plan-card="half_yearly">
+            <span class="badge">Most chosen</span>
+            <h3>6 Months</h3>
+            <p class="price" data-plan-price>loading<span>/6 months</span></p>
+            <p class="save-line" data-plan-save>Save 17%</p>
+            <ul><li>Best balance</li><li>Lower monthly cost</li><li>All premium workflows</li></ul>
+            <a class="btn btn-primary" data-install-link data-plan-cta href="https://chromewebstore.google.com/detail/oajgkebdeioegjkaohcipgblnkjibple">Choose 6 months</a>
+          </article>
+          <article class="pricing-card" data-plan-card="yearly">
+            <h3>Yearly</h3>
+            <p class="price" data-plan-price>loading<span>/year</span></p>
+            <p class="save-line" data-plan-save>Save 33%</p>
+            <ul><li>Lowest annual cost</li><li>Daily operators</li><li>All premium workflows</li></ul>
+            <a class="btn btn-secondary" data-install-link data-plan-cta href="https://chromewebstore.google.com/detail/oajgkebdeioegjkaohcipgblnkjibple">Choose yearly</a>
+          </article>
+        </div>
       </div>
     </section>
 
     <section class="cta-section">
       <div class="shell cta-card">
         <div>
-          <p class="eyebrow">Ready to try it?</p>
-          <h2>Find the leads you are leaking.</h2>
-          <p>Use the real workflow, download numbers during trial, then decide if the paid plan pays for itself.</p>
+          <p class="eyebrow">Ready</p>
+          <h2>Install WA Web Plus.</h2>
+          <p>Use it inside WhatsApp Web during the 7-day trial.</p>
         </div>
         <div class="cta-actions">
-          <a class="btn btn-primary" data-install-link href="https://chromewebstore.google.com/detail/oajgkebdeioegjkaohcipgblnkjibple">Add to Chrome</a>
+          <a class="btn btn-primary" data-install-link href="https://chromewebstore.google.com/detail/oajgkebdeioegjkaohcipgblnkjibple">Install Extension</a>
           <a class="btn btn-secondary" href="./support.html">Contact Support</a>
         </div>
       </div>
@@ -367,27 +328,30 @@
           <img src="./assets/logo-wa-plus.svg" alt="" class="brand-logo">
           <span>WA Web Plus</span>
         </a>
-        <p class="footer-copy">Recover missed WhatsApp leads, download numbers, and keep follow-ups from slipping through the chat feed.</p>
+        <p class="footer-copy">Recover missed WhatsApp leads and keep follow-ups from slipping through the chat feed.</p>
       </div>
-      <div>
-        <h4>Product</h4>
-        <a href="#features">Features</a>
-        <a href="#pricing">Pricing</a>
-        <a href="./support.html">Support</a>
-      </div>
-      <div>
-        <h4>Legal</h4>
-        <a href="./privacy.html">Privacy</a>
-        <a href="./terms.html">Terms</a>
-      </div>
-      <div>
-        <h4>Install</h4>
-        <a data-install-link href="https://chromewebstore.google.com/detail/oajgkebdeioegjkaohcipgblnkjibple">Chrome Web Store</a>
-        <a data-login-link href="https://extensionpay.com">Log in</a>
-      </div>
+      <div><h4>Product</h4><a href="#features">Features</a><a href="./guides.html">Guides</a><a href="./use-cases/whatsapp-crm.html">WhatsApp CRM</a><a href="./use-cases/whatsapp-bulk-sender.html">Bulk sender</a><a href="#pricing">Pricing</a></div>
+      <div><h4>Company</h4><a href="./support.html">Support</a><a href="./privacy.html">Privacy</a><a href="./terms.html">Terms</a></div>
+      <div><h4>Install</h4><a data-install-link href="https://chromewebstore.google.com/detail/oajgkebdeioegjkaohcipgblnkjibple">Chrome Web Store</a><a data-login-link href="https://extensionpay.com">Log in</a></div>
     </div>
   </footer>
 
   <script src="./app.js"></script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "SoftwareApplication",
+    "name": "WA Web Plus",
+    "applicationCategory": "BusinessApplication",
+    "operatingSystem": "Chrome",
+    "description": "WA Web Plus adds CRM workflows, templates, scheduled messages, broadcasts, unsaved-number chat, and deleted-message history to WhatsApp Web.",
+    "url": "https://www.wawebplus.com/",
+    "offers": {
+      "@type": "Offer",
+      "price": "9.99",
+      "priceCurrency": "USD"
+    }
+  }
+  </script>
 </body>
 </html>

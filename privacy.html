@@ -3,54 +3,41 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Privacy Policy – WA Web Plus</title>
-  <link rel="icon" type="image/png" href="./favicon.png">
+  <meta name="robots" content="index,follow">
+  <meta name="theme-color" content="#16a263">
+  <title>WA Web Plus Privacy</title>
+  <meta name="description" content="Privacy policy for WA Web Plus - CRM for WhatsApp, including local-first workspace data, billing, exports, and deleted-message history.">
+  <link rel="canonical" href="https://www.wawebplus.com/privacy.html">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="icon" href="./assets/logo-wa-plus.svg" type="image/svg+xml">
   <link rel="stylesheet" href="./styles.css">
 </head>
 <body>
   <header class="site-header">
     <div class="shell header-row">
       <a class="brand" href="./index.html"><img src="./assets/logo-wa-plus.svg" alt="" class="brand-logo"><span>WA Web Plus</span></a>
-      <div class="header-actions">
-        <a class="btn btn-secondary" href="./index.html">Back to home</a>
-      </div>
+      <nav class="nav" aria-label="Primary navigation"><a href="./index.html#product">Product</a><a href="./index.html#features">Features</a><a href="./guides.html">Guides</a><a href="./index.html#compare">Compare</a><a href="./index.html#pricing">Pricing</a><a href="./support.html">Support</a></nav>
+      <div class="header-actions"><a class="btn btn-secondary" data-login-link href="https://extensionpay.com">Log in</a><a class="btn btn-primary" data-install-link href="https://chromewebstore.google.com/detail/oajgkebdeioegjkaohcipgblnkjibple">Install Extension</a></div>
     </div>
   </header>
 
-  <main class="simple-page">
-    <div class="shell simple-page-card">
-      <p class="eyebrow">Privacy</p>
-      <h1>Privacy policy</h1>
-      <p>WA Web Plus is designed as a local-first browser extension for WhatsApp Web. This page explains the core privacy model used by the website and extension.</p>
-
-      <h2>Core principle</h2>
-      <p>WA Web Plus is built to work inside the user’s browser environment. Customer conversation data is intended to stay local unless the user explicitly exports or downloads it.</p>
-
-      <h2>Data we may process</h2>
-      <ul>
-        <li>Extension settings, local workspace data, templates, tags, reminders, and scheduled actions stored in the browser.</li>
-        <li>Billing and account identity handled through ExtensionPay for trial, login, and subscription management.</li>
-        <li>Support emails or troubleshooting details you send directly to support.</li>
-      </ul>
-
-      <h2>Billing and authentication</h2>
-      <p>Trials, login, and subscription status are handled through ExtensionPay. WA Web Plus may store the resulting account state locally in the extension so features can be unlocked correctly.</p>
-
-      <h2>Exports and backups</h2>
-      <p>If you use export, backup, or report downloads, those files are created on your device and saved by your browser.</p>
-
-      <h2>Support communication</h2>
-      <p>If you contact support, we may use the details you share, such as your billing email, screenshots, or issue description, only to troubleshoot, respond, and resolve your request.</p>
-
-      <h2>Policy updates</h2>
-      <p>This policy may be updated from time to time to reflect product, billing, operational, or legal changes. Continued use of WA Web Plus after updates means you accept the revised policy.</p>
-
-      <h2>Contact</h2>
-      <p>For privacy questions, contact <a data-support-email href="mailto:support@wa-plus.app">support@wa-plus.app</a>.</p>
-    </div>
+  <main>
+    <section class="page-hero">
+      <div class="shell page-hero-grid">
+        <div><p class="eyebrow">Privacy</p><h1>Privacy policy</h1><p class="page-hero-text">WA Web Plus is designed as a local-first browser extension for WhatsApp Web. This page explains the core privacy model used by the website and extension.</p><div class="hero-proof"><span>Local-first</span><span>Browser storage</span><span>Export by user</span></div></div>
+        <div class="guide-panel"><div class="guide-row"><span>1</span><div><strong>Browser workspace</strong><p>Extension settings, templates, tags, reminders, and workspace data are designed for browser-side use.</p></div></div><div class="guide-row"><span>2</span><div><strong>Billing identity</strong><p>Trial, login, and subscription state are handled through ExtensionPay.</p></div></div><div class="guide-row"><span>3</span><div><strong>User exports</strong><p>Export, backup, and report files are created on your device and saved by your browser.</p></div></div></div>
+      </div>
+    </section>
+    <section class="section tinted"><div class="shell content-panel">
+      <div><h2>Core principle</h2><p>WA Web Plus is built to work inside the user’s browser environment. Customer conversation data is intended to stay local unless the user explicitly exports or downloads it.</p></div>
+      <div><h2>Data we may process</h2><ul><li>Extension settings, local workspace data, templates, tags, reminders, and scheduled actions stored in the browser.</li><li>Deleted-message history captured after the feature is enabled, stored locally for Settings review and cleanup.</li><li>Billing and account identity handled through ExtensionPay for trial, login, and subscription management.</li><li>Support emails or troubleshooting details you send directly to support.</li></ul></div>
+      <div><h2>Billing and authentication</h2><p>Trials, login, and subscription status are handled through ExtensionPay. WA Web Plus may store the resulting account state locally in the extension so features can be unlocked correctly.</p></div>
+      <div><h2>Deleted-message history</h2><p>When enabled, WA Web Plus may keep a local browser-side history of captured deleted messages so you can review them in Settings. This data is intended to stay on your device and can be cleared from the extension UI.</p></div>
+      <div><h2>Support communication</h2><p>If you contact support, we may use the details you share, such as your billing email, screenshots, or issue description, only to troubleshoot, respond, and resolve your request.</p></div>
+      <div><h2>Contact</h2><p>For privacy questions, contact <a data-support-email href="mailto:support@wa-plus.app">support@wa-plus.app</a>.</p></div>
+    </div></section>
   </main>
 
   <script src="./app.js"></script>

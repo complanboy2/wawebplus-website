@@ -3,53 +3,71 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Support – WA Web Plus</title>
-  <link rel="icon" type="image/png" href="./favicon.png">
+  <meta name="robots" content="index,follow">
+  <meta name="theme-color" content="#16a263">
+  <title>WA Web Plus Support</title>
+  <meta name="description" content="Support for WA Web Plus - CRM for WhatsApp, including billing, login, deleted-message history, broadcasts, and new-number chat workflows.">
+  <link rel="canonical" href="https://www.wawebplus.com/support.html">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="icon" href="./assets/logo-wa-plus.svg" type="image/svg+xml">
   <link rel="stylesheet" href="./styles.css">
 </head>
 <body>
   <header class="site-header">
     <div class="shell header-row">
       <a class="brand" href="./index.html"><img src="./assets/logo-wa-plus.svg" alt="" class="brand-logo"><span>WA Web Plus</span></a>
-      <div class="header-actions">
-        <a class="btn btn-secondary" href="./index.html">Back to home</a>
-      </div>
+      <nav class="nav" aria-label="Primary navigation"><a href="./index.html#product">Product</a><a href="./index.html#features">Features</a><a href="./guides.html">Guides</a><a href="./index.html#compare">Compare</a><a href="./index.html#pricing">Pricing</a><a href="./support.html">Support</a></nav>
+      <div class="header-actions"><a class="btn btn-secondary" data-login-link href="https://extensionpay.com">Log in</a><a class="btn btn-primary" data-install-link href="https://chromewebstore.google.com/detail/oajgkebdeioegjkaohcipgblnkjibple">Install Extension</a></div>
     </div>
   </header>
 
-  <main class="simple-page">
-    <div class="shell simple-page-card">
-      <p class="eyebrow">Support</p>
-      <h1>Get help quickly.</h1>
-      <p>If you are evaluating WA Web Plus, start with the trial and pricing flow in the extension. If you are an existing customer, use the same payment email to log in and restore access.</p>
-
-      <div class="support-grid">
-        <article class="support-box">
-          <h3>Billing and login</h3>
-          <p>Use your original payment email through the in-extension login flow. This is the primary path for existing users.</p>
-        </article>
-        <article class="support-box">
-          <h3>Manual support activation</h3>
-          <p>Only use support activation if WA Web Plus support explicitly gives you a manual key. It is not the normal customer path.</p>
-        </article>
-        <article class="support-box">
-          <h3>Contact support</h3>
-          <p>Email us at <a data-support-email href="mailto:support@wa-plus.app">support@wa-plus.app</a> with your payment email and a short description of the issue.</p>
-        </article>
+  <main>
+    <section class="page-hero">
+      <div class="shell page-hero-grid">
+        <div>
+          <p class="eyebrow">Support</p>
+          <h1>Get help without losing your workflow.</h1>
+          <p class="page-hero-text">Use this page for billing, login, manual activation, deleted-message history, new-number chat, and broadcast readiness issues. The current published extension is version 5.3.0.</p>
+          <div class="hero-actions"><a class="btn btn-primary btn-large" data-support-email href="mailto:support@wa-plus.app">Email support</a><a class="btn btn-secondary btn-large" href="./index.html#pricing">See pricing</a></div>
+          <div class="hero-proof"><span>Billing login</span><span>Feature help</span><span>Support checklist</span></div>
+        </div>
+        <div class="guide-panel">
+          <div class="guide-row"><span>1</span><div><strong>Use the same email</strong><p>Trial and paid access are tied to the email used in the extension billing flow.</p></div></div>
+          <div class="guide-row"><span>2</span><div><strong>Include the version</strong><p>Send your extension version and the exact screen or action that failed.</p></div></div>
+          <div class="guide-row"><span>3</span><div><strong>Add context</strong><p>For UI issues, include a screenshot. For billing issues, include your payment email.</p></div></div>
+        </div>
       </div>
+    </section>
 
-      <h2>Suggested support checklist</h2>
-      <ul>
-        <li>Include the email you used for trial or payment.</li>
-        <li>Describe the exact screen or action that failed.</li>
-        <li>Include screenshots when reporting UI problems.</li>
-        <li>For manual activation, include the WhatsApp number the license should bind to.</li>
-      </ul>
-    </div>
+    <section class="section">
+      <div class="shell">
+        <div class="section-heading"><p class="eyebrow">Help topics</p><h2>Common support paths.</h2><p>Each topic follows the same support model: identify the account, describe the action, and share enough context to reproduce the issue.</p></div>
+        <div class="feature-grid">
+          <article><span>01</span><h3>Billing and login</h3><p>Use your original payment email through the in-extension login flow to restore access.</p></article>
+          <article><span>02</span><h3>Manual activation</h3><p>Use support activation only when WA Web Plus support explicitly gives you a manual key.</p></article>
+          <article><span>03</span><h3>Contact support</h3><p>Email <a data-support-email href="mailto:support@wa-plus.app">support@wa-plus.app</a> with your payment email and issue summary.</p></article>
+          <article><span>04</span><h3>Message any number</h3><p>If you enter a local number without a country code, the extension uses your logged-in WhatsApp number for context.</p></article>
+          <article><span>05</span><h3>Deleted history</h3><p>Deleted-message records appear in Settings when the feature is enabled and can be cleaned there.</p></article>
+          <article><span>06</span><h3>Bulk sending</h3><p>Keep WhatsApp Web open and connected while sending. WA Web Plus reports failures instead of pretending a send worked.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section tinted">
+      <div class="shell section-split reverse">
+        <div class="content-panel">
+          <div><h2>Support checklist</h2><p>Include the email you used for trial or payment, your extension version, and the exact screen or action that failed.</p></div>
+          <div><h2>When to attach screenshots</h2><p>Attach screenshots for UI problems, deleted-message history problems, and any case where the screen state matters.</p></div>
+          <div><h2>Broadcast issue details</h2><p>For bulk or broadcast issues, mention whether WhatsApp Web was open, connected, and ready at send time.</p></div>
+        </div>
+        <div><p class="eyebrow">Guide</p><h2>Good reports get fixed faster.</h2><p>The most useful support request describes what you expected, what happened instead, where it happened, and which account or WhatsApp number was involved.</p></div>
+      </div>
+    </section>
   </main>
+
+  <footer class="site-footer"><div class="shell footer-grid"><div><a class="brand footer-brand" href="./index.html"><img src="./assets/logo-wa-plus.svg" alt="" class="brand-logo"><span>WA Web Plus</span></a><p class="footer-copy">Recover missed WhatsApp leads and keep follow-ups from slipping through the chat feed.</p></div><div><h4>Product</h4><a href="./index.html#features">Features</a><a href="./guides.html">Guides</a><a href="./use-cases/whatsapp-crm.html">WhatsApp CRM</a><a href="./use-cases/whatsapp-bulk-sender.html">Bulk sender</a><a href="./index.html#pricing">Pricing</a></div><div><h4>Company</h4><a href="./support.html">Support</a><a href="./privacy.html">Privacy</a><a href="./terms.html">Terms</a></div><div><h4>Install</h4><a data-install-link href="https://chromewebstore.google.com/detail/oajgkebdeioegjkaohcipgblnkjibple">Chrome Web Store</a><a data-login-link href="https://extensionpay.com">Log in</a></div></div></footer>
 
   <script src="./app.js"></script>
 </body>

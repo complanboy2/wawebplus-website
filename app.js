@@ -1,27 +1,27 @@
 const WA_PLUS_SITE = {
   extensionId: "oajgkebdeioegjkaohcipgblnkjibple",
+  version: "5.3.0",
   loginUrl: "https://extensionpay.com",
   supportEmail: "support@wa-plus.app"
 };
 
 WA_PLUS_SITE.installUrl = `https://chromewebstore.google.com/detail/${WA_PLUS_SITE.extensionId}`;
-WA_PLUS_SITE.trialUrl = WA_PLUS_SITE.installUrl;
 
 const PRICING_MARKETS = [
-  { id: "USD", label: "\ud83c\udf10 USD", currencyCode: "USD" },
-  { id: "IN", label: "\ud83c\uddee\ud83c\uddf3 INR", currencyCode: "INR" }
+  { id: "USD", label: "International", currencyCode: "USD" },
+  { id: "IN", label: "India", currencyCode: "INR" }
 ];
 
 const PRICING_CATALOGS = {
   USD: {
-    monthly: { price: "$9.99", suffix: "/month", cta: "Install and choose monthly" },
-    half_yearly: { price: "$50", suffix: "/6 months", save: "Save 17%", cta: "Install and choose 6 months" },
-    yearly: { price: "$80", suffix: "/year", save: "Save 33%", cta: "Install and choose yearly" }
+    monthly: { price: "$9.99", suffix: "/month", cta: "Choose monthly" },
+    half_yearly: { price: "$50", suffix: "/6 months", save: "Save 17%", cta: "Choose 6 months" },
+    yearly: { price: "$80", suffix: "/year", save: "Save 33%", cta: "Choose yearly" }
   },
   IN: {
-    monthly: { price: "₹799", suffix: "/month", cta: "Install and choose monthly" },
-    half_yearly: { price: "₹3,979", suffix: "/6 months", save: "Save 17%", cta: "Install and choose 6 months" },
-    yearly: { price: "₹6,424", suffix: "/year", save: "Save 33%", cta: "Install and choose yearly" }
+    monthly: { price: "₹799", suffix: "/month", cta: "Choose monthly" },
+    half_yearly: { price: "₹3,979", suffix: "/6 months", save: "Save 17%", cta: "Choose 6 months" },
+    yearly: { price: "₹6,424", suffix: "/year", save: "Save 33%", cta: "Choose yearly" }
   }
 };
 
@@ -52,18 +52,13 @@ document.querySelectorAll("[data-login-link]").forEach((link) => {
   link.rel = "noopener";
 });
 
-document.querySelectorAll("[data-trial-link]").forEach((link) => {
-  link.href = WA_PLUS_SITE.trialUrl;
-  link.target = "_blank";
-  link.rel = "noopener";
-});
-
 document.querySelectorAll("[data-support-email]").forEach((link) => {
   link.href = `mailto:${WA_PLUS_SITE.supportEmail}`;
   link.textContent = WA_PLUS_SITE.supportEmail;
 });
 
 const marketButtonsRoot = document.querySelector("[data-pricing-market-buttons]");
+const marketNote = document.querySelector("[data-pricing-market-note]");
 const planCards = Array.from(document.querySelectorAll("[data-plan-card]"));
 let selectedMarket = normalizeMarket(detectMarket());
 
@@ -95,15 +90,20 @@ function renderPricing() {
     });
   }
 
+  if (marketNote) {
+    marketNote.textContent = selectedMarket === "IN"
+      ? "Showing INR plans for India. Choose India · INR again in the extension checkout for smoother Stripe payment."
+      : "Showing international USD pricing. India-issued cards should switch to India · INR before checkout.";
+  }
 }
 
 if (marketButtonsRoot) {
   PRICING_MARKETS.forEach((market) => {
     const button = document.createElement("button");
     button.type = "button";
-    button.className = "pricing-toggle-btn";
+    button.className = "pricing-market-button";
     button.setAttribute("data-market", market.id);
-    button.textContent = market.label;
+    button.textContent = `${market.label} · ${market.currencyCode}`;
     button.addEventListener("click", () => {
       selectedMarket = normalizeMarket(market.id);
       renderPricing();

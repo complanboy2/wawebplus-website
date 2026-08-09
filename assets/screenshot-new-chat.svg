@@ -1,0 +1,31 @@
+<svg width="960" height="620" viewBox="0 0 960 620" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Message any number workflow</title>
+  <desc id="desc">A WA Web Plus interface mock showing the phone button and new chat dialog.</desc>
+  <rect width="960" height="620" rx="34" fill="#F7FAF8"/>
+  <rect x="32" y="34" width="896" height="552" rx="26" fill="white" stroke="#DDE7E3"/>
+  <rect x="32" y="34" width="896" height="66" rx="26" fill="#EFFCF6"/>
+  <circle cx="76" cy="68" r="15" fill="#00A884"/>
+  <text x="106" y="75" fill="#111B21" font-family="Inter, Arial, sans-serif" font-size="23" font-weight="800">WA Web Plus</text>
+  <rect x="680" y="51" width="48" height="34" rx="17" fill="#00A884"/>
+  <text x="696" y="74" fill="white" font-family="Inter, Arial, sans-serif" font-size="20" font-weight="800">+</text>
+  <rect x="744" y="51" width="148" height="34" rx="17" fill="white" stroke="#DDE7E3"/>
+  <text x="767" y="73" fill="#667781" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="700">Start chat</text>
+  <rect x="70" y="142" width="280" height="372" rx="22" fill="#F8FBFA" stroke="#DDE7E3"/>
+  <text x="96" y="178" fill="#111B21" font-family="Inter, Arial, sans-serif" font-size="20" font-weight="800">Lead views</text>
+  <rect x="96" y="208" width="214" height="48" rx="14" fill="#E7F8F1"/>
+  <text x="118" y="238" fill="#008069" font-family="Inter, Arial, sans-serif" font-size="15" font-weight="800">Needs reply</text>
+  <rect x="96" y="272" width="214" height="48" rx="14" fill="white" stroke="#E4EBE8"/>
+  <text x="118" y="302" fill="#667781" font-family="Inter, Arial, sans-serif" font-size="15" font-weight="700">Hot leads</text>
+  <rect x="96" y="336" width="214" height="48" rx="14" fill="white" stroke="#E4EBE8"/>
+  <text x="118" y="366" fill="#667781" font-family="Inter, Arial, sans-serif" font-size="15" font-weight="700">Follow-ups</text>
+  <rect x="392" y="154" width="416" height="290" rx="28" fill="white" stroke="#DDE7E3"/>
+  <text x="430" y="204" fill="#111B21" font-family="Inter, Arial, sans-serif" font-size="26" font-weight="800">Start a new WhatsApp chat</text>
+  <text x="430" y="238" fill="#667781" font-family="Inter, Arial, sans-serif" font-size="16">Enter a saved or unsaved phone number.</text>
+  <rect x="430" y="272" width="338" height="58" rx="16" fill="#F8FBFA" stroke="#DDE7E3"/>
+  <text x="456" y="308" fill="#111B21" font-family="Inter, Arial, sans-serif" font-size="20" font-weight="700">9553268695</text>
+  <text x="430" y="360" fill="#667781" font-family="Inter, Arial, sans-serif" font-size="14">No country code? Uses your WhatsApp account country.</text>
+  <rect x="598" y="384" width="170" height="44" rx="22" fill="#00A884"/>
+  <text x="633" y="412" fill="white" font-family="Inter, Arial, sans-serif" font-size="16" font-weight="800">Open chat</text>
+  <path d="M716 101C716 101 708 121 704 146" stroke="#00A884" stroke-width="5" stroke-linecap="round"/>
+  <path d="M694 132L704 148L720 138" stroke="#00A884" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
