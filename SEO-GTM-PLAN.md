@@ -7,12 +7,12 @@ Maximize qualified reach for WA Web Plus by capturing high-intent the browser ch
 WA Web Plus is a practical Chrome extension that adds CRM workflows to the browser chat workspace: follow-ups, templates, scheduling, broadcasts, unsaved-number chat, and deleted-message history.
 
 ## Search Clusters
-- Chat CRM: `/use-cases/whatsapp-crm.html`
-- chat bulk sender: `/use-cases/whatsapp-bulk-sender.html`
-- chat message scheduler: `/use-cases/whatsapp-message-scheduler.html`
-- chat message templates: `/use-cases/whatsapp-message-templates.html`
-- Message unsaved linked chat number: `/use-cases/message-unsaved-whatsapp-number.html`
-- Deleted chat messages: `/use-cases/deleted-whatsapp-messages.html`
+- Chat CRM: `/use-cases/chat-crm.html`
+- chat bulk sender: `/use-cases/chat-bulk-sender.html`
+- chat message scheduler: `/use-cases/chat-message-scheduler.html`
+- chat message templates: `/use-cases/chat-message-templates.html`
+- Message unsaved linked chat number: `/use-cases/message-unsaved-chat-number.html`
+- Deleted chat messages: `/use-cases/deleted-chat-messages.html`
 
 ## Technical SEO
 - Canonical URLs on homepage and each use-case page.
