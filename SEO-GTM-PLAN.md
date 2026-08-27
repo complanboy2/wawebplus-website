@@ -1,18 +1,18 @@
 # WA Web Plus SEO and Growth Plan
 
 ## Goal
-Maximize qualified reach for WA Web Plus by capturing high-intent WhatsApp Web workflow searches and converting visitors to Chrome Web Store installs.
+Maximize qualified reach for WA Web Plus by capturing high-intent the browser chat workspace workflow searches and converting visitors to Chrome Web Store installs.
 
 ## Positioning
-WA Web Plus is a practical Chrome extension that adds CRM workflows to WhatsApp Web: follow-ups, templates, scheduling, broadcasts, unsaved-number chat, and deleted-message history.
+WA Web Plus is a practical Chrome extension that adds CRM workflows to the browser chat workspace: follow-ups, templates, scheduling, broadcasts, unsaved-number chat, and deleted-message history.
 
 ## Search Clusters
-- WhatsApp CRM: `/use-cases/whatsapp-crm.html`
-- WhatsApp bulk sender: `/use-cases/whatsapp-bulk-sender.html`
-- WhatsApp message scheduler: `/use-cases/whatsapp-message-scheduler.html`
-- WhatsApp message templates: `/use-cases/whatsapp-message-templates.html`
-- Message unsaved WhatsApp number: `/use-cases/message-unsaved-whatsapp-number.html`
-- Deleted WhatsApp messages: `/use-cases/deleted-whatsapp-messages.html`
+- Chat CRM: `/use-cases/whatsapp-crm.html`
+- chat bulk sender: `/use-cases/whatsapp-bulk-sender.html`
+- chat message scheduler: `/use-cases/whatsapp-message-scheduler.html`
+- chat message templates: `/use-cases/whatsapp-message-templates.html`
+- Message unsaved linked chat number: `/use-cases/message-unsaved-whatsapp-number.html`
+- Deleted chat messages: `/use-cases/deleted-whatsapp-messages.html`
 
 ## Technical SEO
 - Canonical URLs on homepage and each use-case page.
@@ -35,6 +35,6 @@ WA Web Plus is a practical Chrome extension that adds CRM workflows to WhatsApp 
 - Refresh screenshots after every visible product release.
 
 ## Paid/Distribution Experiments
-- Test Google Search ads for "WhatsApp CRM", "WhatsApp bulk sender", and "WhatsApp message scheduler".
+- Test Google Search ads for "Chat CRM", "chat bulk sender", and "chat message scheduler".
 - Retarget website visitors to the Chrome Web Store listing.
 - Build comparison-free content around jobs-to-be-done, not competitor names.

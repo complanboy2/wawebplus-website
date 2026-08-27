@@ -5,7 +5,7 @@
   <rect x="46" y="48" width="868" height="524" rx="28" fill="white" stroke="#DDE7E3"/>
   <text x="84" y="104" fill="#111B21" font-family="Inter, Arial, sans-serif" font-size="30" font-weight="900">Broadcast Campaign</text>
   <rect x="84" y="132" width="180" height="34" rx="17" fill="#EFFCF6"/>
-  <text x="108" y="155" fill="#008069" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="800">WhatsApp ready</text>
+  <text x="108" y="155" fill="#008069" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="800">supported chat ready</text>
   <rect x="84" y="204" width="250" height="258" rx="22" fill="#F8FBFA" stroke="#DDE7E3"/>
   <text x="112" y="240" fill="#111B21" font-family="Inter, Arial, sans-serif" font-size="20" font-weight="800">Recipients</text>
   <text x="112" y="282" fill="#111B21" font-family="Inter, Arial, sans-serif" font-size="17">+919876543210</text>
@@ -32,5 +32,5 @@
   <path d="M358 321L374 333L358 345" stroke="#00A884" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
   <path d="M648 321L664 333L648 345" stroke="#00A884" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
   <rect x="84" y="500" width="778" height="34" rx="17" fill="#EFFCF6"/>
-  <text x="112" y="522" fill="#008069" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="800">Real execution only: if WhatsApp is unavailable, WA Web Plus reports the failure instead of showing fake success.</text>
+  <text x="112" y="522" fill="#008069" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="800">Real execution only: if supported chat is unavailable, WA Web Plus reports the failure instead of showing fake success.</text>
 </svg>
