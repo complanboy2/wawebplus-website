@@ -1,11 +1,10 @@
 const WA_PLUS_SITE = {
-  extensionId: "oajgkebdeioegjkaohcipgblnkjibple",
-  version: "5.3.0",
+  extensionId: "mmkkmeiogfmoipjidmcaddbccdgmjipa",
+  installUrl: "https://chromewebstore.google.com/detail/wa-web-crm-sales-workspac/mmkkmeiogfmoipjidmcaddbccdgmjipa",
+  version: "5.3.5",
   loginUrl: "https://extensionpay.com",
   supportEmail: "support@wa-plus.app"
 };
-
-WA_PLUS_SITE.installUrl = `https://chromewebstore.google.com/detail/${WA_PLUS_SITE.extensionId}`;
 
 const PRICING_MARKETS = [
   { id: "USD", label: "International", currencyCode: "USD" },
