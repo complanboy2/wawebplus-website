@@ -40,7 +40,7 @@ WA Web CRM by WA Web Plus is a practical Chrome extension that adds CRM workflow
 
 ## Conversion Plan
 - Primary CTA: Install Extension.
-- Secondary CTA: pricing/trial/support.
+- Secondary CTA: pricing/login/support.
 - Keep claims accurate and specific to avoid Chrome Web Store policy risk.
 - Use actual product screenshots/assets instead of generic SaaS imagery.
 

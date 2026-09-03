@@ -1331,21 +1331,6 @@ img {
   box-shadow: 0 24px 60px rgba(22, 162, 99, 0.16);
 }
 
-.trial-card {
-  background: #10261c;
-  color: #fff;
-}
-
-.trial-card h3,
-.trial-card .price {
-  color: #fff;
-}
-
-.trial-card .plan-copy,
-.trial-card li {
-  color: rgba(255, 255, 255, 0.72);
-}
-
 .badge {
   align-self: flex-start;
   margin-bottom: 16px;
