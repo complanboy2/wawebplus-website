@@ -1,0 +1,5 @@
+{
+  "scripts": {
+    "seo:check": "node scripts/check-seo.js"
+  }
+}

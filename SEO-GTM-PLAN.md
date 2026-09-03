@@ -32,6 +32,8 @@ WA Web CRM by WA Web Plus is a practical Chrome extension that adds CRM workflow
 - Google Search Console sitemap submitted successfully for `https://www.wawebplus.com/sitemap.xml`.
 - Google Search Console indexing requested for `/use-cases/whatsapp-web-crm.html` and `/`.
 - IndexNow accepted 10 changed URLs.
+- IndexNow accepted 12 sitemap URLs with HTTP 200 after the feature-page SEO update.
+- Added `npm run seo:check` to verify sitemap coverage, canonical tags, CWS ID usage, unsupported trial claims, and FAQ schema on commercial pages.
 
 ## Current Reality
 - Search Console shows `61` total web search clicks, `57` indexed pages, and `17` not indexed pages for the domain property.

@@ -9,6 +9,7 @@ Generated for: 2026-09-03
 - The new public listing is live as `WA Web CRM - Sales Workspace`.
 - Homepage, install links, SoftwareApplication schema, sitemap, and the new `/use-cases/whatsapp-web-crm.html` page were updated on 2026-09-03.
 - Search Console sitemap submission and indexing requests were completed on 2026-09-03.
+- IndexNow accepted all 12 sitemap URLs with HTTP 200 on 2026-09-03 after the feature-page SEO update.
 - Public visibility is early: branded/domain queries can surface owned assets, but broad `WhatsApp Web CRM`, scheduler, template, and bulk-sender queries are not won yet.
 - P0 feature-page SEO copy and FAQ schema were strengthened for CRM, scheduler, bulk sender, and templates on 2026-09-03.
 
@@ -16,7 +17,7 @@ Generated for: 2026-09-03
 
 | Gate | Current | Target before claiming progress | Status |
 | --- | --- | --- | --- |
-| Google indexation | Requested for homepage and CRM page | Search Console says indexed with matching canonical | pending crawl |
+| Google indexation | Requested for homepage and CRM page; IndexNow accepted 12 URLs | Search Console says indexed with matching canonical | pending crawl |
 | Public query visibility | 3/10 visible or partial tracked rows | At least 6/10 visible or partial, including 2 non-branded rows | not ready |
 | Authority evidence | 1 verified listing, 5 ready/gated targets | At least 6 crawlable third-party citations | not ready |
 | CWS authority | New listing is public | Website/support/privacy URLs visible and current screenshots uploaded | partial |
@@ -44,6 +45,7 @@ Generated for: 2026-09-03
 ## Verification Commands
 
 ```sh
+npm run seo:check
 rg -n "free trial|7-day trial|during the trial" .
 rg -n "mmkkmeiogfmoipjidmcaddbccdgmjipa|WA Web CRM" index.html use-cases/*.html sitemap.xml
 curl -I https://www.wawebplus.com/sitemap.xml
