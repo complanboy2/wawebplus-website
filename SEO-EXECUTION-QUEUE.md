@@ -57,6 +57,7 @@ curl -I https://chromewebstore.google.com/detail/wa-web-crm-sales-workspac/mmkkm
 - `SEO-GTM-PLAN.md`
 - `seo/public-search-visibility-status.csv`
 - `seo/authority-targets.csv`
+- `seo/outreach-batch-20260903.csv`
 - `sitemap.xml`
 - `index.html`
 - `use-cases/whatsapp-web-crm.html`
