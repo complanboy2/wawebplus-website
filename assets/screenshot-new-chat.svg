@@ -1,11 +1,11 @@
 <svg width="960" height="620" viewBox="0 0 960 620" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
   <title id="title">Message any number workflow</title>
-  <desc id="desc">A WA Web Plus interface mock showing the phone button and new chat dialog.</desc>
+  <desc id="desc">A WA Web Utils interface mock showing the phone button and new chat dialog.</desc>
   <rect width="960" height="620" rx="34" fill="#F7FAF8"/>
   <rect x="32" y="34" width="896" height="552" rx="26" fill="white" stroke="#DDE7E3"/>
   <rect x="32" y="34" width="896" height="66" rx="26" fill="#EFFCF6"/>
   <circle cx="76" cy="68" r="15" fill="#00A884"/>
-  <text x="106" y="75" fill="#111B21" font-family="Inter, Arial, sans-serif" font-size="23" font-weight="800">WA Web Plus</text>
+  <text x="106" y="75" fill="#111B21" font-family="Inter, Arial, sans-serif" font-size="23" font-weight="800">WA Web Utils</text>
   <rect x="680" y="51" width="48" height="34" rx="17" fill="#00A884"/>
   <text x="696" y="74" fill="white" font-family="Inter, Arial, sans-serif" font-size="20" font-weight="800">+</text>
   <rect x="744" y="51" width="148" height="34" rx="17" fill="white" stroke="#DDE7E3"/>

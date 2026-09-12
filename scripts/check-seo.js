@@ -3,7 +3,7 @@ const path = require('path');
 
 const root = path.join(__dirname, '..');
 const sitemapPath = path.join(root, 'sitemap.xml');
-const cwsId = 'mmkkmeiogfmoipjidmcaddbccdgmjipa';
+const cwsId = 'oajgkebdeioegjkaohcipgblnkjibple';
 const commercialPages = new Set([
   'use-cases/whatsapp-web-crm.html',
   'use-cases/chat-crm.html',
@@ -14,7 +14,7 @@ const commercialPages = new Set([
 const unsupportedClaims = /free trial|7-day trial|during the trial/i;
 
 function fail(issues) {
-  console.error(`WA Web CRM SEO check failed with ${issues.length} issue(s):`);
+  console.error(`WA Web Utils SEO check failed with ${issues.length} issue(s):`);
   for (const issue of issues) console.error(`- ${issue}`);
   process.exit(1);
 }
@@ -69,7 +69,7 @@ if (!robots.includes('Sitemap: https://www.wawebplus.com/sitemap.xml')) {
 
 if (issues.length) fail(issues);
 
-console.log('# WA Web CRM SEO Check');
+console.log('# WA Web Utils SEO Check');
 console.log('');
 console.log(`Sitemap URLs: ${urls.length}`);
 console.log(`Commercial FAQ pages: ${commercialPages.size}`);

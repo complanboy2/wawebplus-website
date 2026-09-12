@@ -1,16 +1,16 @@
-# WA Web CRM SEO Execution Queue
+# WA Web Utils SEO Execution Queue
 
-Noindexed working queue for `https://www.wawebplus.com/` and the Chrome Web Store item `mmkkmeiogfmoipjidmcaddbccdgmjipa`.
+Noindexed working queue for `https://www.wawebplus.com/` and the Chrome Web Store item `oajgkebdeioegjkaohcipgblnkjibple`.
 
 Generated for: 2026-09-03
 
 ## Current Reality
 
-- The new public listing is live as `WA Web CRM - Sales Workspace`.
+- The new public listing is live as `WA Web Utils - Sales Workspace`.
 - Homepage, install links, SoftwareApplication schema, sitemap, and the new `/use-cases/whatsapp-web-crm.html` page were updated on 2026-09-03.
 - Search Console sitemap submission and indexing requests were completed on 2026-09-03.
 - IndexNow accepted all 12 sitemap URLs with HTTP 200 on 2026-09-03 after the feature-page SEO update.
-- Public visibility is early: branded/domain queries can surface owned assets, but broad `WhatsApp Web CRM`, scheduler, template, and bulk-sender queries are not won yet.
+- Public visibility is early: branded/domain queries can surface owned assets, but broad `browser chat CRM`, scheduler, template, and bulk-sender queries are not won yet.
 - P0 feature-page SEO copy and FAQ schema were strengthened for CRM, scheduler, bulk sender, and templates on 2026-09-03.
 
 ## Evidence Gates
@@ -37,19 +37,19 @@ Generated for: 2026-09-03
 
 | Target page | Primary intent | Update needed |
 | --- | --- | --- |
-| `/use-cases/chat-crm.html` | WhatsApp Web CRM for sales follow-ups | Done; recheck Search Console after crawl. |
-| `/use-cases/chat-message-scheduler.html` | WhatsApp Web message scheduler extension | Done; recheck Search Console after crawl. |
-| `/use-cases/chat-bulk-sender.html` | WhatsApp Web bulk sender extension | Done; recheck Search Console after crawl. |
-| `/use-cases/chat-message-templates.html` | WhatsApp Web message templates | Done; recheck Search Console after crawl. |
+| `/use-cases/chat-crm.html` | browser chat CRM for sales follow-ups | Done; recheck Search Console after crawl. |
+| `/use-cases/chat-message-scheduler.html` | browser chat message scheduler extension | Done; recheck Search Console after crawl. |
+| `/use-cases/chat-bulk-sender.html` | browser chat bulk sender extension | Done; recheck Search Console after crawl. |
+| `/use-cases/chat-message-templates.html` | browser chat message templates | Done; recheck Search Console after crawl. |
 
 ## Verification Commands
 
 ```sh
 npm run seo:check
-rg -n "free trial|7-day trial|during the trial" .
-rg -n "mmkkmeiogfmoipjidmcaddbccdgmjipa|WA Web CRM" index.html use-cases/*.html sitemap.xml
+rg -n "paid access|Paid plans|during the trial" .
+rg -n "oajgkebdeioegjkaohcipgblnkjibple|WA Web Utils" index.html use-cases/*.html sitemap.xml
 curl -I https://www.wawebplus.com/sitemap.xml
-curl -I https://chromewebstore.google.com/detail/wa-web-crm-sales-workspac/mmkkmeiogfmoipjidmcaddbccdgmjipa
+curl -I https://chromewebstore.google.com/detail/oajgkebdeioegjkaohcipgblnkjibple
 ```
 
 ## Source Files

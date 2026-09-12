@@ -1,6 +1,6 @@
-# WA Web Plus Website
+# WA Web Utils Website
 
-Static marketing website for WA Web Plus.
+Static marketing website for WA Web Utils.
 
 ## Local structure
 

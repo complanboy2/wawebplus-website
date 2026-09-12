@@ -1,7 +1,7 @@
 const WA_PLUS_SITE = {
-  extensionId: "mmkkmeiogfmoipjidmcaddbccdgmjipa",
-  installUrl: "https://chromewebstore.google.com/detail/wa-web-crm-sales-workspac/mmkkmeiogfmoipjidmcaddbccdgmjipa",
-  version: "5.3.5",
+  extensionId: "oajgkebdeioegjkaohcipgblnkjibple",
+  installUrl: "https://chromewebstore.google.com/detail/oajgkebdeioegjkaohcipgblnkjibple",
+  version: "5.3.6",
   loginUrl: "https://extensionpay.com",
   supportEmail: "support@wa-plus.app"
 };

@@ -1,6 +1,6 @@
 <svg width="960" height="620" viewBox="0 0 960 620" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
   <title id="title">Bulk and broadcast workflow</title>
-  <desc id="desc">A WA Web Plus mock showing campaign recipients, readiness checks, pacing, action links, and reports.</desc>
+  <desc id="desc">A WA Web Utils mock showing campaign recipients, readiness checks, pacing, action links, and reports.</desc>
   <rect width="960" height="620" rx="34" fill="#F7FAF8"/>
   <rect x="46" y="48" width="868" height="524" rx="28" fill="white" stroke="#DDE7E3"/>
   <text x="84" y="104" fill="#111B21" font-family="Inter, Arial, sans-serif" font-size="30" font-weight="900">Broadcast Campaign</text>
@@ -32,5 +32,5 @@
   <path d="M358 321L374 333L358 345" stroke="#00A884" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
   <path d="M648 321L664 333L648 345" stroke="#00A884" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
   <rect x="84" y="500" width="778" height="34" rx="17" fill="#EFFCF6"/>
-  <text x="112" y="522" fill="#008069" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="800">Real execution only: if supported chat is unavailable, WA Web Plus reports the failure instead of showing fake success.</text>
+  <text x="112" y="522" fill="#008069" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="800">Real execution only: if supported chat is unavailable, WA Web Utils reports the failure instead of showing fake success.</text>
 </svg>
