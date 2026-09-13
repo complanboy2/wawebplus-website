@@ -24,8 +24,8 @@ WA Web Utils by WA Web Utils is a practical Chrome extension that adds CRM workf
 - Internal links from homepage, footer, and related use-case pages.
 
 ## September 3, 2026 Execution
-- New Chrome Web Store item `oajgkebdeioegjkaohcipgblnkjibple` is live as `WA Web Utils - Sales Workspace`.
-- Website install links now point to the live Chrome Web Store listing.
+- Chrome Web Store item `oajgkebdeioegjkaohcipgblnkjibple` is submitted for review as `WA Web Utils - Sales Workspace`.
+- Website install links point to the existing Chrome Web Store item ID while the updated listing is pending review.
 - Homepage title, description, Open Graph title, SoftwareApplication schema, and visible version were refreshed for `WA Web Utils - Sales Workspace`.
 - Added cornerstone page `/use-cases/whatsapp-web-crm.html` for the highest-intent `browser chat CRM` and `WA Web Utils` queries.
 - Sitemap updated to 12 URLs with September 3, 2026 lastmod values.

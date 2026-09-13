@@ -6,7 +6,7 @@ Generated for: 2026-09-03
 
 ## Current Reality
 
-- The new public listing is live as `WA Web Utils - Sales Workspace`.
+- The updated listing is submitted for Chrome Web Store review as `WA Web Utils - Sales Workspace`.
 - Homepage, install links, SoftwareApplication schema, sitemap, and the new `/use-cases/whatsapp-web-crm.html` page were updated on 2026-09-03.
 - Search Console sitemap submission and indexing requests were completed on 2026-09-03.
 - IndexNow accepted all 12 sitemap URLs with HTTP 200 on 2026-09-03 after the feature-page SEO update.
