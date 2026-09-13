@@ -15,6 +15,7 @@ Updated for WA Web Utils review and SEO status: 2026-09-13
 - Homepage and guides visible shorthand were cleaned from `WA+` to `Utils` on 2026-09-13, and `/` plus `/guides.html` sitemap dates were refreshed.
 - Search Console sitemap submission and indexing requests were completed on 2026-09-03.
 - IndexNow accepted all 12 sitemap URLs with HTTP 200 on 2026-09-03 after the feature-page SEO update.
+- IndexNow accepted all 12 sitemap URLs with HTTP 200 on 2026-09-13 after the WA Web Utils review-status and analytics update.
 - Public visibility is early: branded/domain queries can surface owned assets, but broad `browser chat CRM`, scheduler, template, and bulk-sender queries are not won yet.
 - P0 feature-page SEO copy and FAQ schema were strengthened for CRM, scheduler, bulk sender, and templates on 2026-09-03.
 

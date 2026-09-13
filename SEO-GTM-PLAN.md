@@ -43,6 +43,7 @@ WA Web Utils by WA Web Utils is a practical Chrome extension that adds CRM workf
 - Live verification confirmed the homepage, guides page, robots file, sitemap, and install links are deployed.
 - Public search also shows another independent Chrome extension already using the `WA Web Utils` brand. Treat this as an SEO and brand-confusion risk when choosing the next listing title or ad copy.
 - GA4 measurement was added for page views, install CTA clicks, login clicks, support email clicks, and pricing market selection using property `G-F3SS125HX9`.
+- IndexNow accepted all 12 sitemap URLs with HTTP 200 after the September 13 site and tracking updates.
 
 ## Current Reality
 - Search Console shows `61` total web search clicks, `57` indexed pages, and `17` not indexed pages for the domain property.
