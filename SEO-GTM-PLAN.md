@@ -42,6 +42,7 @@ WA Web Utils by WA Web Utils is a practical Chrome extension that adds CRM workf
 - Sitemap lastmod values for `/` and `/guides.html` were refreshed to `2026-09-13`.
 - Live verification confirmed the homepage, guides page, robots file, sitemap, and install links are deployed.
 - Public search also shows another independent Chrome extension already using the `WA Web Utils` brand. Treat this as an SEO and brand-confusion risk when choosing the next listing title or ad copy.
+- GA4 measurement was added for page views, install CTA clicks, login clicks, support email clicks, and pricing market selection using property `G-F3SS125HX9`.
 
 ## Current Reality
 - Search Console shows `61` total web search clicks, `57` indexed pages, and `17` not indexed pages for the domain property.
@@ -59,7 +60,7 @@ WA Web Utils by WA Web Utils is a practical Chrome extension that adds CRM workf
 ## Next 30 Days
 - Build one focused page per commercial feature query: browser chat CRM, WA Web message scheduler, WA Web bulk sender, WA Web templates, browser chat follow-up reminders, and browser chat CRM exports.
 - Use Search Console query data weekly to expand pages only where impressions exist but CTR or position is weak.
-- Add analytics events for install CTA clicks from homepage, feature pages, pricing cards, and footer.
+- Verify GA4 Realtime events for install CTA clicks from homepage, feature pages, pricing cards, and footer.
 - Improve Chrome Web Store conversion with current screenshots, accurate feature-specific copy, and review-generation prompts inside support/success flows.
 - Publish support-led articles from real user questions, but only when they target a query with buying intent or support demand.
 - Build authority links to the new live Chrome Web Store URL and the cornerstone browser chat CRM page.

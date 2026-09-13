@@ -3,7 +3,8 @@ const WA_PLUS_SITE = {
   installUrl: "https://chromewebstore.google.com/detail/oajgkebdeioegjkaohcipgblnkjibple",
   version: "5.3.6",
   loginUrl: "https://extensionpay.com",
-  supportEmail: "support@wa-plus.app"
+  supportEmail: "support@wa-plus.app",
+  analyticsId: "G-F3SS125HX9"
 };
 
 const PRICING_MARKETS = [
@@ -39,21 +40,71 @@ function detectMarket() {
   return "USD";
 }
 
+function initAnalytics() {
+  if (!WA_PLUS_SITE.analyticsId || navigator.doNotTrack === "1") return;
+
+  window.dataLayer = window.dataLayer || [];
+  window.gtag = window.gtag || function gtag() {
+    window.dataLayer.push(arguments);
+  };
+
+  const script = document.createElement("script");
+  script.async = true;
+  script.src = `https://www.googletagmanager.com/gtag/js?id=${encodeURIComponent(WA_PLUS_SITE.analyticsId)}`;
+  document.head.appendChild(script);
+
+  window.gtag("js", new Date());
+  window.gtag("config", WA_PLUS_SITE.analyticsId, {
+    send_page_view: true,
+    page_title: document.title,
+    page_location: window.location.href
+  });
+}
+
+function trackEvent(name, params = {}) {
+  if (typeof window.gtag !== "function") return;
+  window.gtag("event", name, {
+    product: "WA Web Utils",
+    page_path: window.location.pathname,
+    ...params
+  });
+}
+
+initAnalytics();
+
 document.querySelectorAll("[data-install-link]").forEach((link) => {
   link.href = WA_PLUS_SITE.installUrl;
   link.target = "_blank";
   link.rel = "noopener";
+  link.addEventListener("click", () => {
+    trackEvent("install_cta_click", {
+      link_text: link.textContent.trim(),
+      link_url: WA_PLUS_SITE.installUrl,
+      plan: link.closest("[data-plan-card]")?.getAttribute("data-plan-card") || "not_plan"
+    });
+  });
 });
 
 document.querySelectorAll("[data-login-link]").forEach((link) => {
   link.href = WA_PLUS_SITE.loginUrl;
   link.target = "_blank";
   link.rel = "noopener";
+  link.addEventListener("click", () => {
+    trackEvent("login_click", {
+      link_text: link.textContent.trim(),
+      link_url: WA_PLUS_SITE.loginUrl
+    });
+  });
 });
 
 document.querySelectorAll("[data-support-email]").forEach((link) => {
   link.href = `mailto:${WA_PLUS_SITE.supportEmail}`;
   link.textContent = WA_PLUS_SITE.supportEmail;
+  link.addEventListener("click", () => {
+    trackEvent("support_email_click", {
+      link_text: link.textContent.trim()
+    });
+  });
 });
 
 const marketButtonsRoot = document.querySelector("[data-pricing-market-buttons]");
@@ -106,6 +157,9 @@ if (marketButtonsRoot) {
     button.addEventListener("click", () => {
       selectedMarket = normalizeMarket(market.id);
       renderPricing();
+      trackEvent("pricing_market_select", {
+        market: selectedMarket
+      });
     });
     marketButtonsRoot.appendChild(button);
   });

@@ -26,7 +26,7 @@ Updated for WA Web Utils review and SEO status: 2026-09-13
 | Public query visibility | 3/10 visible or partial tracked rows | At least 6/10 visible or partial, including 2 non-branded rows | not ready |
 | Authority evidence | 1 verified listing, 5 ready/gated targets | At least 6 crawlable third-party citations | not ready |
 | CWS authority | Updated draft is pending review; public listing can still show older title/snippet | Approved listing shows WA Web Utils title, current website/support/privacy URLs, and correct screenshots | pending review |
-| Conversion tracking | Website has install CTAs | Analytics events for install/pricing/support CTAs | not ready |
+| Conversion tracking | GA4 pageview and install/login/support/pricing-market events added on 2026-09-13 | Events visible in GA4 Realtime and usable for campaign/source evaluation | pending GA verification |
 
 ## P0 Execution
 
