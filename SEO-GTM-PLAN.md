@@ -1,7 +1,7 @@
 # WA Web Utils SEO and Growth Plan
 
 ## Goal
-Maximize qualified reach for WA Web Utils by capturing high-intent browser chat CRM workflow searches and converting visitors to Chrome Web Store installs.
+Maximize qualified reach for WA Web Utils and the related WA Web utility extension portfolio by capturing high-intent browser chat CRM workflow searches and converting visitors to Chrome Web Store installs.
 
 ## Positioning
 WA Web Utils by WA Web Utils is a practical Chrome extension that adds CRM workflows to browser chat in Chrome: follow-ups, templates, scheduling, broadcasts, unsaved-number chat, exports, and deleted-message history.
@@ -35,10 +35,20 @@ WA Web Utils by WA Web Utils is a practical Chrome extension that adds CRM workf
 - IndexNow accepted 12 sitemap URLs with HTTP 200 after the feature-page SEO update.
 - Added `npm run seo:check` to verify sitemap coverage, canonical tags, CWS ID usage, unsupported trial claims, and FAQ schema on commercial pages.
 
+## September 13, 2026 Execution
+- Chrome Web Store dashboard shows `WA Web Utils - Sales Workspace` draft is still pending review for item `oajgkebdeioegjkaohcipgblnkjibple`.
+- Public Chrome Web Store search can still show the previously published title/snippet until Google approves the pending draft.
+- Homepage and guide-page visible product shorthand was changed from `WA+` to `Utils`.
+- Sitemap lastmod values for `/` and `/guides.html` were refreshed to `2026-09-13`.
+- Live verification confirmed the homepage, guides page, robots file, sitemap, and install links are deployed.
+- Public search also shows another independent Chrome extension already using the `WA Web Utils` brand. Treat this as an SEO and brand-confusion risk when choosing the next listing title or ad copy.
+
 ## Current Reality
 - Search Console shows `61` total web search clicks, `57` indexed pages, and `17` not indexed pages for the domain property.
 - The new browser chat CRM page is not ranked yet because it was just published and was unknown to Google before the indexing request.
 - Public search snippets can show stale titles/content until Google recrawls the updated pages.
+- Broad organic ranking is not yet established for non-branded commercial terms. Do not claim ranking wins until Search Console and public checks show stable impressions and positions.
+- The current submitted CWS name is usable for review continuity, but the brand-name collision may limit SEO upside compared with a more distinctive product name later.
 
 ## Conversion Plan
 - Primary CTA: Install Extension.
