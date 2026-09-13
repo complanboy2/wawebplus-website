@@ -1,5 +1,7 @@
 {
   "scripts": {
-    "seo:check": "node scripts/check-seo.js"
+    "seo:check": "node scripts/check-seo.js",
+    "seo:indexnow": "node scripts/indexnow-submit.js",
+    "seo:indexnow:record": "node scripts/indexnow-submit.js --record"
   }
 }

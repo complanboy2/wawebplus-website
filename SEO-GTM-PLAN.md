@@ -22,6 +22,7 @@ WA Web Utils is a practical Chrome extension that adds CRM workflows to WA Web i
 - Homepage SoftwareApplication schema with live Chrome Web Store install URL.
 - FAQ schema on the WA Web CRM cornerstone page.
 - Internal links from homepage, footer, and related use-case pages.
+- Repeatable IndexNow submission via `npm run seo:indexnow:record`.
 
 ## September 3, 2026 Execution
 - Chrome Web Store item `oajgkebdeioegjkaohcipgblnkjibple` is submitted for review as `WA Web Utils - Sales Workspace`.
@@ -46,6 +47,7 @@ WA Web Utils is a practical Chrome extension that adds CRM workflows to WA Web i
 - IndexNow accepted all 12 sitemap URLs with HTTP 200 after the September 13 site and tracking updates.
 - Retargeted homepage and commercial feature pages from generic `browser chat` language to higher-intent `WA Web CRM`, `WA Web scheduler`, `WA Web bulk sender`, and `WA Web templates` language after fresh public SERP checks showed competitor-dominated results for those intents.
 - Refreshed all sitemap lastmod values to `2026-09-13` after the WA Web keyword retargeting.
+- Added a repeatable IndexNow submission command for WA Web Utils and recorded HTTP 200 acceptance for all 12 canonical sitemap URLs after the WA Web keyword retargeting.
 
 ## Current Reality
 - Search Console shows `61` total web search clicks, `57` indexed pages, and `17` not indexed pages for the domain property.
