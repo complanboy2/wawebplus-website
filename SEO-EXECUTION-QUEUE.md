@@ -23,6 +23,7 @@ WA Web Utils is now part of the same active SEO goal as `WA - Download Group Pho
 - IndexNow accepted all 12 sitemap URLs with HTTP 200 on 2026-09-03 after the feature-page SEO update.
 - IndexNow accepted all 12 sitemap URLs with HTTP 200 on 2026-09-13 after the WA Web Utils review-status and analytics update.
 - IndexNow accepted all 12 sitemap URLs with HTTP 200 on 2026-09-13 after the WA Web keyword retargeting, and the repeatable command is now tracked as `npm run seo:indexnow:record`.
+- IndexNow accepted all 12 sitemap URLs with HTTP 200 on 2026-09-14 after commercial HowTo schema and sitemap freshness updates went live.
 - Public visibility is early: branded/domain queries can surface owned assets, but broad `WA Web CRM`, scheduler, template, and bulk-sender queries are not won yet.
 - P0 feature-page SEO copy and FAQ schema were strengthened for CRM, scheduler, bulk sender, and templates on 2026-09-03, then retargeted to WA Web commercial phrasing on 2026-09-13 after fresh public SERP checks.
 
