@@ -11,6 +11,7 @@ const commercialPages = new Set([
   'use-cases/chat-bulk-sender.html',
   'use-cases/chat-message-templates.html'
 ]);
+const howToPages = new Set(commercialPages);
 const unsupportedClaims = /free trial|7-day trial|during the trial/i;
 
 function fail(issues) {
@@ -33,6 +34,26 @@ function localPathFromUrl(url) {
 
 const issues = [];
 const urls = sitemapUrls();
+
+function structuredDataObjects(html, rel) {
+  const scripts = [...html.matchAll(/<script type="application\/ld\+json">([\s\S]*?)<\/script>/g)];
+  const objects = [];
+  for (const script of scripts) {
+    try {
+      objects.push(JSON.parse(script[1]));
+    } catch (error) {
+      issues.push(`${rel}: invalid JSON-LD (${error.message})`);
+    }
+  }
+  return objects;
+}
+
+function hasSchemaType(objects, schemaType) {
+  return objects.some((object) => {
+    const type = object['@type'];
+    return type === schemaType || (Array.isArray(type) && type.includes(schemaType));
+  });
+}
 
 if (urls.length !== 12) issues.push(`sitemap should contain 12 URLs, found ${urls.length}`);
 
@@ -57,8 +78,14 @@ for (const url of urls) {
   if (!html.includes(`rel="canonical" href="${url}"`)) issues.push(`${rel}: canonical does not match sitemap URL`);
   if (!html.includes(cwsId)) issues.push(`${rel}: missing current Chrome Web Store ID`);
   if (unsupportedClaims.test(html)) issues.push(`${rel}: contains unsupported trial claim`);
-  if (commercialPages.has(rel) && !html.includes('"@type": "FAQPage"')) {
-    issues.push(`${rel}: commercial page missing FAQ schema`);
+  if (commercialPages.has(rel) || howToPages.has(rel)) {
+    const structuredData = structuredDataObjects(html, rel);
+    if (commercialPages.has(rel) && !hasSchemaType(structuredData, 'FAQPage')) {
+      issues.push(`${rel}: commercial page missing FAQ schema`);
+    }
+    if (howToPages.has(rel) && !hasSchemaType(structuredData, 'HowTo')) {
+      issues.push(`${rel}: commercial page missing HowTo schema`);
+    }
   }
 }
 
@@ -73,4 +100,5 @@ console.log('# WA Web Utils SEO Check');
 console.log('');
 console.log(`Sitemap URLs: ${urls.length}`);
 console.log(`Commercial FAQ pages: ${commercialPages.size}`);
+console.log(`Commercial HowTo pages: ${howToPages.size}`);
 console.log('Status: PASS');
