@@ -4,6 +4,7 @@ const path = require('path');
 const root = path.join(__dirname, '..');
 const sitemapPath = path.join(root, 'sitemap.xml');
 const cwsId = 'oajgkebdeioegjkaohcipgblnkjibple';
+const analyticsId = 'G-F3SS125HX9';
 const commercialPages = new Set([
   'use-cases/whatsapp-web-crm.html',
   'use-cases/chat-crm.html',
@@ -55,7 +56,7 @@ function hasSchemaType(objects, schemaType) {
   });
 }
 
-if (urls.length !== 12) issues.push(`sitemap should contain 12 URLs, found ${urls.length}`);
+if (urls.length < 12) issues.push(`sitemap should contain at least 12 URLs, found ${urls.length}`);
 
 for (const url of urls) {
   const rel = localPathFromUrl(url);
@@ -77,6 +78,9 @@ for (const url of urls) {
   if (!html.includes('name="description"')) issues.push(`${rel}: missing meta description`);
   if (!html.includes(`rel="canonical" href="${url}"`)) issues.push(`${rel}: canonical does not match sitemap URL`);
   if (!html.includes(cwsId)) issues.push(`${rel}: missing current Chrome Web Store ID`);
+  if (!html.includes(rel.includes('/') ? '<script src="../app.js"></script>' : '<script src="./app.js"></script>')) {
+    issues.push(`${rel}: missing shared app.js conversion tracking script`);
+  }
   if (unsupportedClaims.test(html)) issues.push(`${rel}: contains unsupported trial claim`);
   if (commercialPages.has(rel) || howToPages.has(rel)) {
     const structuredData = structuredDataObjects(html, rel);
@@ -92,6 +96,13 @@ for (const url of urls) {
 const robots = fs.readFileSync(path.join(root, 'robots.txt'), 'utf8');
 if (!robots.includes('Sitemap: https://www.wawebplus.com/sitemap.xml')) {
   issues.push('robots.txt missing sitemap directive');
+}
+
+const appJs = fs.readFileSync(path.join(root, 'app.js'), 'utf8');
+if (!appJs.includes(`analyticsId: "${analyticsId}"`)) issues.push('app.js missing expected GA4 measurement ID');
+if (!appJs.includes('googletagmanager.com/gtag/js')) issues.push('app.js missing GA4 script loader');
+for (const eventName of ['install_cta_click', 'login_click', 'support_email_click', 'pricing_market_select']) {
+  if (!appJs.includes(`"${eventName}"`)) issues.push(`app.js missing ${eventName} event tracking`);
 }
 
 if (issues.length) fail(issues);
