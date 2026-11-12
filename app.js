@@ -3,7 +3,7 @@ const WA_PLUS_SITE = {
   installUrl: "https://chromewebstore.google.com/detail/oajgkebdeioegjkaohcipgblnkjibple",
   version: "5.3.6",
   loginUrl: "https://extensionpay.com",
-  supportEmail: "support@wa-plus.app",
+  supportEmail: "support@wawebplus.com",
   analyticsId: "G-F3SS125HX9"
 };
 
